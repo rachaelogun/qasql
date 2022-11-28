@@ -1,5 +1,7 @@
 USE Northwind;
-
+GO
+CREATE VIEW dbo.ContactDirectory
+AS
 SELECT
 	CompanyName,
 	ContactName,
