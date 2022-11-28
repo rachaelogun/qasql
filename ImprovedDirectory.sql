@@ -22,3 +22,5 @@ FROM dbo.Suppliers
 UNION ALL
 SELECT 'Northwind Trders', FirstName, LastName, Extension
 FROM dbo.Employees
+
+ORDER BY LastName
